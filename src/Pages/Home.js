@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Counter from "../component/Counter";
 import Title from '../component/Title'
 class Home extends Component {
     constructor(){
@@ -20,7 +21,8 @@ class Home extends Component {
                 <Title title={this.state.title} desc={this.state.description}/>
                 <div className="container">
 
-                    <h3>classbased Home Component</h3>
+                    {/* <h3>classbased Home Component</h3> */}
+                    <Counter />
                 </div>
             </div>
         );
