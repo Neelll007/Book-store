@@ -11,7 +11,7 @@ class Home extends Component {
     }
     render() {
         return (
-            <div className="wp">
+            <>
                 {/* <Title text="Book-e-sell"/>
                 <Title text="this is my react training project."/>
                 <Title text="this ia about component"/>
@@ -24,7 +24,7 @@ class Home extends Component {
                     {/* <h3>classbased Home Component</h3> */}
                     <Counter />
                 </div>
-            </div>
+            </>
         );
     }
 }
